@@ -1,5 +1,5 @@
-export const formatPrice = ({currentStream, value}) =>
-  currentStream === 'btcusdt' ? parseFloat(value).toFixed(2) : parseFloat(value).toFixed(6)
+export const formatPrice = ({ currentStream, value }) =>
+  parseFloat(value).toFixed(currentStream === "btcusdt" ? 2 : 6);
 
-export const formatAmount = ({currentStream, value}) =>
-  currentStream === 'btcusdt' ? parseFloat(value).toFixed(6) : parseFloat(value).toFixed(3)
+export const formatAmount = ({ currentStream, value }) =>
+  parseFloat(value).toFixed(currentStream === "btcusdt" ? 6 : 3);

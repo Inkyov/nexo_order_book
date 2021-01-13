@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataWidget should render 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container"
+    >
+      <div
+        class="MuiGrid-root WithStyles(ForwardRef(Grid))-root-1 WithStyles(ForwardRef(Grid))-root-2 MuiGrid-item MuiGrid-grid-xs-6"
+        data-testid="PRICE"
+      >
+        Price(
+        USDT
+        )
+      </div>
+      <div
+        class="MuiGrid-root WithStyles(ForwardRef(Grid))-root-1 WithStyles(ForwardRef(Grid))-root-3 MuiGrid-item MuiGrid-grid-xs-6"
+        data-testid="AMOUNT"
+      >
+        Amount(
+        BTC
+        )
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container"
+      data-testid="ORDER_ROW_0"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+      >
+        0.33
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+      >
+        0.123450
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container"
+      data-testid="ORDER_ROW_1"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+      >
+        0.22
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+      >
+        0.123450
+      </div>
+    </div>
+  </div>
+</div>
+`;

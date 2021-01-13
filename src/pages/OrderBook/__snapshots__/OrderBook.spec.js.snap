@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderBook should render 1`] = `
+<div>
+  <div
+    class="MuiGrid-root WithStyles(ForwardRef(Grid))-root-1 MuiGrid-container MuiGrid-spacing-xs-3"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <svg
+        class="ForwardRef(SvgNexoIoVectorLogo)-root-2"
+      >
+        nexo-io-vector-logo.svg
+      </svg>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+      data-testid="TRADING_PAIRS_SELECT"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated"
+        id="select-trading-pair"
+      >
+        Trading Pair
+      </label>
+      <div
+        class="MuiInputBase-root MuiInput-root MuiInput-underline"
+      >
+        <div
+          aria-haspopup="listbox"
+          aria-labelledby="select-trading-pair"
+          class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+          role="button"
+          tabindex="0"
+        >
+          BTC/USDT
+        </div>
+        <input
+          aria-hidden="true"
+          class="MuiSelect-nativeInput"
+          placeholder="Choose a trading pair"
+          tabindex="-1"
+          value="btcusdt"
+        />
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSelect-icon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container"
+      data-testid="TABLE_HEADERS"
+    >
+      <div
+        class="MuiGrid-root WithStyles(ForwardRef(Grid))-root-3 WithStyles(ForwardRef(Grid))-root-4 MuiGrid-item MuiGrid-grid-xs-6"
+      >
+        Bids
+      </div>
+      <div
+        class="MuiGrid-root WithStyles(ForwardRef(Grid))-root-3 WithStyles(ForwardRef(Grid))-root-5 MuiGrid-item MuiGrid-grid-xs-6"
+      >
+        Asks
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        data-testid="BIDS"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container"
+        >
+          <div
+            class="MuiGrid-root WithStyles(ForwardRef(Grid))-root-6 WithStyles(ForwardRef(Grid))-root-7 MuiGrid-item MuiGrid-grid-xs-6"
+            data-testid="PRICE"
+          >
+            Price(
+            USDT
+            )
+          </div>
+          <div
+            class="MuiGrid-root WithStyles(ForwardRef(Grid))-root-6 WithStyles(ForwardRef(Grid))-root-8 MuiGrid-item MuiGrid-grid-xs-6"
+            data-testid="AMOUNT"
+          >
+            Amount(
+            BTC
+            )
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        data-testid="ASKS"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container"
+        >
+          <div
+            class="MuiGrid-root WithStyles(ForwardRef(Grid))-root-6 WithStyles(ForwardRef(Grid))-root-9 MuiGrid-item MuiGrid-grid-xs-6"
+            data-testid="PRICE"
+          >
+            Price(
+            USDT
+            )
+          </div>
+          <div
+            class="MuiGrid-root WithStyles(ForwardRef(Grid))-root-6 WithStyles(ForwardRef(Grid))-root-10 MuiGrid-item MuiGrid-grid-xs-6"
+            data-testid="AMOUNT"
+          >
+            Amount(
+            BTC
+            )
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

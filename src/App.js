@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
 
-import OrderBook from './pages/OrderBook'
+import OrderBook from "./pages/OrderBook";
 
-function App () {
-  return (
-    <OrderBook/>
-  )
+function App() {
+  return <OrderBook />;
 }
 
-export default App
+export default App;

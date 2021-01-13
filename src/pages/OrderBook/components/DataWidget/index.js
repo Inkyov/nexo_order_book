@@ -1,3 +1,3 @@
-import DataWidget from './DataWidget';
+import DataWidget from "./DataWidget";
 
 export default DataWidget;

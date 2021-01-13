@@ -1,10 +1,13 @@
+import keyMirror from "key-mirror-nested";
+
 export const TRADING_PAIRS = {
-  'BTC/USDT': {key: 'BTC/USDT', value: 'btcusdt'},
-  'ETH/BTC': {key: 'ETH/BTC', value: 'ethbtc'}
-}
+  "BTC/USDT": { key: "BTC/USDT", value: "btcusdt" },
+  "ETH/BTC": { key: "ETH/BTC", value: "ethbtc" },
+};
 
-export const STREAM_LABELS = {
-  'btcusdt': {price: 'USDT', amount: 'BTC'},
-  'ethbtc': {price: 'BTC', amount: 'ETH'}
-}
-
+export const ORDER_BOOK_TEST_IDS = keyMirror({
+  TRADING_PAIRS_SELECT: null,
+  TABLE_HEADERS: null,
+  BIDS: null,
+  ASKS: null,
+});
